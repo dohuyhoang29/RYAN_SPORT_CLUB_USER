@@ -31,28 +31,37 @@
     </div>
 
     <!-- Header Section Begin -->
-    <header class="header-section header-normal">
+    <header class="header-section">
         <div class="container-fluid">
             <div class="logo">
-                <a href="./index.html">
-                    <img src="img/logo.png" alt="">
+                <a href="./home.html">
+                    <img style="position: relative; top: -20px;" src="img/logo.png" alt="">
                 </a>
             </div>
             <div class="top-social">
-                <a href="#"><i class="fa fa-pinterest-p"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-                <a href="#"><i class="fa fa-pinterest-p"></i></a>
-                <a href="#"><i class="fa fa-youtube-play"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
+                <div class="nav search-row" id="top_menu">
+                    <!--  search form start -->
+                    <ul class="nav top-menu">
+                        <li>
+                            <form class="navbar-form">
+                                <input class="form-control" placeholder="Search" type="text">
+                                    <img
+                                        style="position: relative; bottom: 30px; left: 175px;"
+                                        src="img/icons/search-line-icon.png" alt="">
+                                </input>
+                            </form>
+                        </li>
+                    </ul>
+                    <!--  search form end -->
+                </div>
             </div>
             <div class="container">
                 <div class="nav-menu">
                     <nav class="mainmenu mobile-menu">
                         <ul>
-                            <li><a href="./index.html">Home</a></li>
+                            <li class="active"><a href="./home.html">Home</a></li>
                             <li><a href="./about-us.html">About us</a></li>
-                            <li><a href="./schedule.html">Schedule</a></li>
-                            <li class="active"><a href="./gallery.html">Gallery</a></li>
+                            <li><a href="./gallery.html">Gallery</a></li>
                             <li><a href="./blog.html">Blog</a>
                                 <ul class="dropdown">
                                     <li><a href="./about-us.html">About Us</a></li>
@@ -108,7 +117,7 @@
                         <img src="img/gallery/gallery-1.jpg"" alt="">
                         <div class="gi-hover-warp">
                             <div class="gi-hover">
-                                <a href="img/gallery/gallery-1.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
+                                <a href="./home.html" class="image-popup"><i class="fa fa-search-plus"></i></a>
                                 <a href="#"><i class="fa fa-chain"></i></a>
                                 <h6>Time to Try a Bodyweight Workout <span>Run, Walk, Swimming</span></h6>
                             </div>
