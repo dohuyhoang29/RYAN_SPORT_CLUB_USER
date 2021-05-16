@@ -1,92 +1,52 @@
 <!DOCTYPE html>
 <html lang="zxx">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Activitar Template">
-    <meta name="keywords" content="Activitar, unica, creative, html">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Activitar | Template</title>
-
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
-
-    <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-</head>
-
-<body>
-    <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
-    </div>
-
-    <!-- Header Section Begin -->
-    <header class="header-section">
-        <div class="container-fluid">
-            <div class="logo">
-                <a href="./home.html">
-                    <img style="position: relative; top: -20px;" src="img/logo.png" alt="">
-                </a>
-            </div>
-            <div class="top-social">
-                <div class="nav search-row" id="top_menu">
-                    <!--  search form start -->
-                    <ul class="nav top-menu">
-                        <li>
-                            <form class="navbar-form">
-                                <input class="form-control" placeholder="Search" type="text">
-                                    <img
-                                        style="position: relative; bottom: 30px; left: 175px;"
-                                        src="img/icons/search-line-icon.png" alt="">
-                                </input>
-                            </form>
-                        </li>
-                    </ul>
-                    <!--  search form end -->
-                </div>
-            </div>
-            <div class="container">
-                <div class="nav-menu">
-                    <nav class="mainmenu mobile-menu">
-                        <ul>
-                            <li class="active"><a href="./home.html">Home</a></li>
-                            <li><a href="./about-us.html">About us</a></li>
-                            <li><a href="./gallery.html">Gallery</a></li>
-                            <li><a href="./blog.html">Blog</a>
-                                <ul class="dropdown">
-                                    <li><a href="./about-us.html">About Us</a></li>
-                                    <li><a href="./blog-single.html">Blog Details</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="./contact.html">Contacts</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-            <div id="mobile-menu-wrap"></div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Activitar Template">
+        <meta name="keywords" content="Activitar, unica, creative, html">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Activitar | Template</title>
+    
+        <!-- Font chữ Google -->
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
+    
+        <!-- Link Css Styles -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+        <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+        <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+        <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="icon" href="img/core-img/favicon.ico">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    
+    <body>
+        <!-- Tạo animation cho phần load file -->
+        <div id="preloder">
+            <div class="loader"></div>
         </div>
-    </header>
-    <!-- Header End -->
+    
+        <!-- header -->
+        <?php
+        include_once('./header.php');
+    ?>
 
-    <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg spad" data-setbg="img/about-bread.jpg">
+
+    <!-- Menu con -->
+    <section class="breadcrumb-section set-bg spad" data-setbg="img/aboutbread.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-text">
                         <h2>About Us</h2>
                         <div class="breadcrumb-controls">
-                            <a href="#"><i class="fa fa-home"></i> Home</a>
+                            <a href="./home.html"><i class="fa fa-home"></i> Home</a>
                             <span>About Us</span>
                         </div>
                     </div>
@@ -94,9 +54,8 @@
             </div>
         </div>
     </section>
-    <!-- Breadcrumb End -->
 
-    <!-- Aboutus Section Begin -->
+    <!-- Thông tin giới thiệu về clb -->
     <section class="aboutus-section spad">
         <div class="container">
             <div class="aboutus-page-text">
@@ -109,7 +68,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="img/about-us.jpg" alt="">
+                <img src="img/blogsinglehero.jpg" alt="">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="about-us">
@@ -137,10 +96,9 @@
             </div>
         </div>
     </section>
-    <!-- Aboutus Section End -->
 
-    <!-- Testimonial Section End -->
-    <section class="testimonial-section set-bg spad" data-setbg="img/testimonial-bg.jpg">
+    <!-- slide show về một vài câu nói nổi tiếng -->
+    <section class="testimonial-section set-bg spad" data-setbg="img/hero-slider/banner2.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
@@ -202,9 +160,8 @@
             </div>
         </div>
     </section>
-    <!-- Testimonial Section End -->
 
-    <!-- Trainer Section Begin -->
+    <!-- hình ảnh về một vài huấn luyện viên của clb  -->
     <section class="trainer-section spad">
         <div class="container">
             <div class="row">
@@ -276,20 +233,15 @@
             </div>
         </div>
     </section>
-    <!-- Trainer Section End -->
 
-    <!-- Cta Section Begin -->
-    
-    <!-- Cta Section End -->
-
-    <!-- Footer Section Begin -->
+    <!-- Footer -->
     <footer class="footer-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
                     <div class="footer-logo-item">
                         <div class="f-logo">
-                            <a href="#"><img src="img/logo.png" alt=""></a>
+                            <a href="./home.html"><img src="img/logo.png" alt=""></a>
                         </div>
                         <p>Despite growth of the Internet over the past seven years, the use of toll-free phone numbers
                             in television advertising continues.</p>
@@ -306,19 +258,19 @@
                     <div class="footer-widget">
                         <h5>Our Blog</h5>
                         <div class="footer-blog">
-                            <a href="#" class="fb-item">
+                            <a href="./event.html" class="fb-item">
                                 <h6>Annual football tournament </h6>
                                 <span class="blog-time"><i class="fa fa-clock-o"></i> May 05, 2021</span>
                             </a>
-                            <a href="#" class="fb-item">
+                            <a href="./event.html" class="fb-item">
                                 <h6>Annual basketball tournament</h6>
                                 <span class="blog-time"><i class="fa fa-clock-o"></i> May 06, 2021</span>
                             </a>
-                            <a href="#" class="fb-item">
+                            <a href="./event.html" class="fb-item">
                                 <h6>International swimming tournament </h6>
                                 <span class="blog-time"><i class="fa fa-clock-o"></i> May 07, 2021</span>
                             </a>
-                            <a href="#" class="fb-item">
+                            <a href="./event.html" class="fb-item">
                                 <h6>International badminton tournament </h6>
                                 <span class="blog-time"><i class="fa fa-clock-o"></i> May 08, 2021</span>
                             </a>
@@ -329,10 +281,10 @@
                     <div class="footer-widget">
                         <h5>Program</h5>
                         <ul class="workout-program">
-                            <li><a href="#">Indoor Sport</a></li>
-                            <li><a href="#">Outdoor Sport</a></li>
-                            <li><a href="#">Recreation</a></li>
-                            <li><a href="#">Pictures</a></li>
+                            <li><a href="./Service.php">Indoor Sport</a></li>
+                            <li><a href="./Service.php">Outdoor Sport</a></li>
+                            <li><a href="./Service.php">Recreation</a></li>
+                            <li><a href="./gallery.php">Pictures</a></li>
 
                         </ul>
                     </div>
@@ -370,20 +322,16 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <div class="ct-inside">
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            Copyright &copy;
-                            <script>document.write(new Date().getFullYear());</script> All rights reserved | This
+                            Copyright &copy; All rights reserved | This
                             template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by eProject 2</a>
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    <!-- Footer Section End -->
 
-    <!-- Js Plugins -->
+    <!-- Link js -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
@@ -393,6 +341,7 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/masonry.pkgd.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
