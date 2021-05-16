@@ -7,7 +7,7 @@
     <meta name="keywords" content="Activitar, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Activitar | Template</title>
+    <title>RYAN SPORT CLUB</title>
 
     <!-- Font chữ Google -->
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800,900&display=swap" rel="stylesheet">
@@ -41,7 +41,7 @@
     <!-- Slide show ảnh -->
     <section class="hero-section">
         <div class="hero-items owl-carousel">
-            <div class="single-hero-item set-bg" data-setbg="img/hero-slider/banner1.jpg">
+            <div class="single-hero-item set-bg" data-setbg="img/hero-slider/banner-1.jpg">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
